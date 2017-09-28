@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Link, HashRouter, Switch, Route } from 'react-router-dom'
+
+import RegistrationPage from "./pages/RegistrationPage";
 import logo from './logo.svg';
 import './App.css';
 
@@ -11,21 +14,13 @@ class App extends Component {
     }
 
   render() {
-    const Mystyle ={
-        position: 'fixed',
-        width: '100%',
-        height: '100%',
-        opacity: '0.6',
-        backgroundColor: 'black'
-    }
     return (
       <div className="App container-fluid">
-          <form>
-           <div style={Mystyle}>
-           <input type="text" value="Enter your id..."></input>
-           <input type="submit" value="submit"></input>
-           </div>
-          </form>
+          <HashRouter>
+              <Switch>
+                  <Route path="/" key="7" component={RegistrationPage}/>
+              </Switch>
+          </HashRouter>
       </div>
 
     );
