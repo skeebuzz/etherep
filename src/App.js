@@ -19,11 +19,13 @@ class App extends Component {
         backgroundColor: 'black'
     }
     return (
-      <div className="App">
+      <div className="App container-fluid">
+          <form>
            <div style={Mystyle}>
            <input type="text" value="Enter your id..."></input>
            <input type="submit" value="submit"></input>
            </div>
+          </form>
       </div>
 
     );
