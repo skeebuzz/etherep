@@ -24,25 +24,25 @@
 }
 
 .Mystyle {
-  width: '300px',
-  margin: '0 auto',
-  height: '200px',
-  backgroundColor: 'white',
-  marginTop: '20%'
+  width: 300px;
+  margin: 0;
+  height: 200px;
+  background-color: white;
+  margin-top: 20%;
 }
 
 .MyContainer {
-  position: 'fixed',
-  width: '100%',
-  height: '630px',
-  opacity: '0.6',
-  backgroundColor: '#111111'
+  position: fixed;
+  width: 100%;
+  height: 630px;
+  opacity: 0.6;
+  background-color: #111111;
 }
 
 .Myinput {
-  marginTop: '40px'
+  margin-top: 40px;
 }
 
 .Mydiv {
-  display:'inline-grid'
+  display: inline-grid;
 }

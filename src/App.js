@@ -21,13 +21,13 @@ import './App.css';
     }
 
 
-    render()
+    render() {
       return (
-        <form style={MyContainer} onSubmit={this.handleSubmit}>
-          <label style={Mydiv}>
-            <input style={Myinput} type="text" value={this.state.value} onChange={this.handleChange} />
+        <form className="MyContainer" onSubmit={this.handleSubmit}>
+          <label className="Mydiv">
+            <input className="Myinput" type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
-          <input style={Myinput} type="submit" value="Submit" />
+          <input className="Myinput" type="submit" value="Submit" />
         </form>
       );
   }
